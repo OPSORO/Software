@@ -581,3 +581,11 @@ fieldset legend{
 	left: 0.75rem;
 	top: 0.25rem;
 }
+
+#AppBtn_verhaaltje, #AppBtn_rekenwereld, #AppBtn_geheugen, #AppBtn_tiktak{
+	background: #fcd017
+}
+
+#sounds, #visprog, #luascripting, #socialscript{
+	clear: none;
+}

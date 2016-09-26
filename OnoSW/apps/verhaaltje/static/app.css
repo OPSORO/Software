@@ -1,0 +1,29 @@
+.block{
+    background-color: #22b573;
+    height: 210px;
+    width: 210px;
+    border-radius: 20px;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.rowStory{
+    float: none;
+    width: 710px;
+    margin: auto;
+}
+
+.fa-plus{
+    color: #17a15c;
+    font-size: 150px;
+    position: relative;
+    line-height: 210px;
+    
+}
+
+.content{
+    min-height: 550px;
+}
