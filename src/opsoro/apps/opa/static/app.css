@@ -1,0 +1,143 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cmdqueue{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    min-width: 170px;
+    min-height: 170px;
+}
+.applet{
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.applet-content{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    margin: 15px;
+    flex-direction: column;
+}
+.applet-content .logo{
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    position: absolute;
+}
+.applet-content h3{
+    margin-left: 50px;
+}
+.applet-footer{
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    margin-top: auto;
+    opacity: 0.4;
+}
+
+.command{
+    z-index: 2;
+    margin: 10px;
+    width: 230px;
+    border-radius: 15px;
+    background-color: blue;
+    overflow: hidden;
+}
+.command a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+}
+.command-content{
+    margin: 15px;
+    max-width: 200px;
+    color: white;
+}
+.command-footer{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.flex-container > .highlight{
+    background-color: green;
+    opacity: 0.5;
+}
+
+#cmdqueue-placeholder{
+    position: absolute;
+    border: 4px dashed #f8f8f8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+}
+.text-muted{
+    opacity: 0.8;
+}
+.hidden{
+    display: none !important;
+}
+.visible{
+    display: block;
+}
+
+.activity {
+    width:400px;
+    margin-bottom: 2em
+}
+
+.activities {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.activity_content {
+    background-color:#2e294e;
+    height: 100px;
+    border-radius: 15px;
+    padding: 2em;
+    color:#ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.activity_header {
+    display: flex;
+    flex-direction: row;
+}
+
+#protocolcontrol>ul>li {
+    list-style-type: none;
+    display: inline-block;
+}
+#protocolcontrol {
+    display: flex;
+    justify-content: center;
+}
+.no-margin {
+    margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .activity {
+        width: 280px;
+    }
+}
